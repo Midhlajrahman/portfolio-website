@@ -26,6 +26,7 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 section {
@@ -234,6 +235,7 @@ span {
 .services-box {
     font-size: 2.6rem;
 
+
 }
 
 .services-box p {
@@ -407,8 +409,15 @@ span {
    .services {
     padding-bottom: 7rem;
    }
+   .services-container{
+    flex-direction: column;
+    height: 170px;
+    width: 46%;
+      padding-top: 411px;
+   
+   }
    .portfolio {
-    padding-bottom: 7rem;
+    padding-top: 53rem;
    }
    .contact {
     min-height: auto;
@@ -416,14 +425,34 @@ span {
       
    .footer{
     padding: 2rem 3% ;
-    width: 895px;
+    width: 398px;
    }
    .home {
-     padding-right: 331px;
+     padding-right: 491px;
    }
    .about {
     width: 1236px;
    }
+   .about-content p {
+    padding-right: 828px;
+    text-align: justify;
+   }
+   .about-img{
+    margin-right: 1000px;
+   }
+    .heading {
+        padding-right: 442px;
+    }
+    .portfolio-box img {
+        width: 46%;
+        border-radius: 13px;
+    }
+    .contact form {
+        width: 46%;
+        margin-right: 452px;
+    }
+    .contact form .btn {
+        margin-left: 17px;
 
 }
 @media (max-width: 768px) {
