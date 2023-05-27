@@ -412,10 +412,13 @@ span {
    .services-container{
     flex-direction: column;
     height: 170px;
-    width: 44%;
+    width: 43%;
       padding-top: 411px;
       margin-right: 8px
    
+   }
+   .services-box{
+    margin-left: 20px;
    }
    .portfolio {
     padding-top: 53rem;
@@ -435,7 +438,7 @@ span {
     width: 1236px;
    }
    .about-content p {
-    padding-right: 842px;
+    padding-right: 862px;
     text-align: justify;
    }
    .about-img{
