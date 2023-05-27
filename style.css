@@ -419,8 +419,12 @@ span {
     width: 895px;
    }
    .home {
-     padding-right: 497px;
+     padding-right: 331px;
    }
+   .about {
+    width: 1236px;
+   }
+
 }
 @media (max-width: 768px) {
     #menu-icon {
