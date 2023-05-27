@@ -412,8 +412,9 @@ span {
    .services-container{
     flex-direction: column;
     height: 170px;
-    width: 46%;
+    width: 44%;
       padding-top: 411px;
+      margin-right: 8px
    
    }
    .portfolio {
@@ -441,15 +442,16 @@ span {
     margin-right: 1000px;
    }
     .heading {
-        padding-right: 442px;
+        padding-right: 459px;
     }
     .portfolio-box img {
-        width: 46%;
-        border-radius: 13px;
+        width: 40%;
+        border-radius: 15px;
+        margin-left: 8px;
     }
     .contact form {
-        width: 46%;
-        margin-right: 452px;
+        width: 44%;
+        margin-right: 470px;
     }
     .contact form .btn {
         margin-left: 17px;
@@ -458,6 +460,20 @@ span {
     margin-right: 10px;
     border-radius: 100%;
     width: 29%;
+}
+.portfolio-box .portfolio-layer {
+transform: translateX(70%);
+transform: translateY(100%);
+width: 43%;
+border-radius: 10px;
+
+
+}
+.portfolio-box:hover {
+    border-radius: 20px;
+}
+.portfolio-box{
+    margin-left: 17px;
 }
 
 }
